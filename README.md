@@ -10,6 +10,7 @@ pip install e80analysis
 
 ## Usage
 ```python
+>>> from e80analysis import E80Analysis
 >>> e = E80Analysis()                               # begin an analysis
 >>> e.set_spans(range(10, 101))                     # spans set to "range(10, 201)" by default, but can be changed
 >>> axle_loads = [35, 35, 35, 35, 35, 35, 35, 35]   # enter train axle loads
