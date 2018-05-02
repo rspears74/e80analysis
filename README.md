@@ -24,3 +24,5 @@ pip install e80analysis
 ![Example Plot](https://i.imgur.com/igksRp5.png)
 
 The `plot` function can be called with optional argument `save=True` to save a file called 'E-Loading.png' directly in the user's Documents folder rather than display it with tkinter.
+
+It's also highly recommended to use the module in a [jupyter](https://jupyter.org) notebook rather than in the python shell.
